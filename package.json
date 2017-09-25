@@ -1,0 +1,35 @@
+{
+  "name": "bankai-http",
+  "version": "1.0.0",
+  "description": "http server for bankai",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrlna/bankai-http.git"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "bankai"
+  ],
+  "author": "Irina Shestak",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lrlna/bankai-http/issues"
+  },
+  "homepage": "https://github.com/lrlna/bankai-http#readme",
+  "dependencies": {
+    "bankai": "^8.1.1",
+    "http-gzip-maybe": "^1.0.0",
+    "pump": "^1.0.2",
+    "reg-router": "^1.0.1"
+  },
+  "devDependencies": {
+    "choo": "^6.1.0",
+    "sheetify": "^6.2.0",
+    "tachyons": "^4.8.1"
+  }
+}
